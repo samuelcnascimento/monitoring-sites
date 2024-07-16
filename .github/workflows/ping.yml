@@ -3,6 +3,7 @@ name: Ping Render
 on:
   schedule:
     - cron: '*/2 * * * *'
+  workflow_dispatch:
 
 jobs:
   ping:
@@ -10,4 +11,4 @@ jobs:
 
     steps:
       - name: Send ping to Render
-        run: curl -X GET https://bibliotecapp.onrender.com/bibliotecapp
+        run: curl -X GET https://seu-site-no-render.com
