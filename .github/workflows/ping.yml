@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Send ping to Render
-        run: curl -X GET https://seu-site-no-render.com
+        run: curl -X GET https://bibliotecapp.onrender.com/bibliotecapp
